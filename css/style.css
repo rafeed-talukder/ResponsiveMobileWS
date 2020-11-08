@@ -1,0 +1,68 @@
+.header-edit{
+    background-color: #223047;
+    border-bottom: 1.5px solid #4e596c;
+}
+.header-bottom-section, .footer {
+    background-color: #223047;
+}
+/* header section ends */
+
+/* button color section starts */
+.button-color{
+    background-color: #00fff0;
+}
+/* button color section ends */
+
+/* brand section starts */
+.brand-section{
+    width: 99%;
+}
+/* brand section ends */
+
+/* hero-smartphone section css starts*/
+.hero-smartphone{
+ background-color: #f5f6fa;
+}
+.new{
+    background-color: #4e596c;
+}
+/* hero-smartphone section css ends */
+
+/* marketing sectiion starts */
+.marketing-phone{
+    margin-left: -100px;
+    margin-top: 20px;
+}
+/* marketing section ends */
+
+/* phone updown css starts */
+.parent{
+    position: absolute;
+}
+.child{
+ position: relative;
+ top: 12%;
+}
+/* phone updown css ends */
+
+/* phone media query starts */
+@media (min-width: 768px) and (max-width: 992px){
+    .image-phone {
+        top: 50px;
+    }
+    .mid-phone-responsive{
+        top: 100px;
+    }
+}
+
+@media (min-width:576px ) and (max-width: 768px){
+    .mid-phone-responsive{
+        top: 192px;
+    }
+}
+@media (min-width:300px ) and (max-width: 576px){
+    .mid-phone-responsive{
+        top: 392px;
+    }
+}
+/* phone media query starts */
